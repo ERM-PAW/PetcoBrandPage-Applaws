@@ -1,0 +1,81 @@
+/* Responsive */
+@media (max-width: 77.999em) { /*max-width: 1279.99px*/
+    .citrusStylesSE-applaws__hero {
+        padding: 0 2%;
+    }
+
+    .citrusStylesSE-applaws__hero--text img{
+        max-width: 150px;
+    }
+    
+    .citrusStylesSE-applaws__hero--text .citrusStylesSE-header2 {
+        font-size: calc(var(--citrusStylesSE-text-font-size-large) + 5px);
+    }
+
+    /* 3-Across */
+    .citrusStylesSE-applaws__education {
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 63.999em) { /*max-width: 1023.99px*/
+    .citrusStylesSE-applaws__hero {
+        padding: 0 2%;
+        gap: 30px;
+    }
+
+    .citrusStylesSE-applaws__hero--text img{
+        max-width: 140px;
+    }
+    
+    .citrusStylesSE-applaws__hero--text .citrusStylesSE-header2 {
+        font-size: calc(var(--citrusStylesSE-text-font-size-medium) + 4px);
+    }
+}
+
+@media (max-width: 47.999em) { /*max-width: 767.99px*/
+    .citrusStylesSE-applaws__hero {
+        flex-direction: column;
+        padding: 0 1%;
+        background: #283641;
+        gap: 0;
+    }
+
+    .citrusStylesSE-applaws__hero--text {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+        padding-top: var(--citrusStylesSE-text-font-size-super);
+    }
+
+    .citrusStylesSE-applaws__hero--text img{
+        margin: 0 auto;
+        max-width: 180px;
+    }
+
+    .citrusStylesSE-applaws__hero--img {
+        padding: 0;
+    }
+
+    .citrusStylesSE-applaws__hero--text .citrusStylesSE-header2 {
+        font-size: calc(var(--citrusStylesSE-text-font-size-super) - 2px);
+        max-width: 80%;
+    }
+
+    .citrusStylesSE-applaws__hero--img{
+        max-width: 275px;
+        order: 2;
+    }
+
+    .citrusStylesSE-applaws__hero .citrusStylesSE-disclaimer {
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 19.999em) { /*max-width: 319.99px*/
+
+    .citrusStylesSE-applaws__hero--text .citrusStylesSE-header2 {
+        font-size: calc(var(--citrusStylesSE-text-font-size-medium) + 4px);
+    }
+}

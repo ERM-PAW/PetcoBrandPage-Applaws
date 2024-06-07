@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.citrusStylesSE-applaws {
+    padding: 0 0 4em;
+}
+
+/* Regular Hero */
+.citrusStylesSE-applaws__hero {
+    background-image: url("img/citrus-applaws-hero-bg-dsk.jpg");
+    padding: 0 4%;
+    gap: 20px;
+    background-size: 100% 100%;
+    align-items: center;
+    gap: 50px;
+}
+
+.citrusStylesSE-applaws__hero--text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.5em;
+    max-width: 42%;
+}
+
+.citrusStylesSE-applaws__hero--text img{
+    /* max-width: 243px; */
+    max-width: 43%;
+}
+
+.citrusStylesSE-applaws__hero--text .citrusStylesSE-header2 {
+    font-size: calc(var(--citrusStylesSE-text-font-size-super) + 6px);
+    color: var(--citrusStylesSE-white);
+}
+
+.citrusStylesSE-applaws__hero--text .citrusStylesSE-header2 span {
+    color: #33A199;
+}
+
+.citrusStylesSE-applaws .citrusStylesSE-btn-secondary-white {
+    flex-direction: column;
+    margin: 0;
+}
+
+.citrusStylesSE-applaws .citrusStylesSE-btn-secondary-white .citrusStylesSE-disclaimer {
+    padding-top: 10px;
+}
+
+.citrusStylesSE-applaws__hero .citrusStylesSE-disclaimer {
+    color: var(--citrusStylesSE-white);
+}
+
+.citrusStylesSE-applaws__hero--img{
+    max-width: 28%;
+    padding: 1em 0;
+}
+
+/* End Regular Hero */
