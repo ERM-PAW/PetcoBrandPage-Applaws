@@ -84,7 +84,6 @@ body {
 }
 
 .citrusStylesSE-card__img {
-  height: 230px;
   border-radius: var(--citrusStylesSE-border-radius-8);
   position: relative;
 }
